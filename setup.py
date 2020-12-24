@@ -14,6 +14,7 @@ setup(
     long_descrition_content_type='text/markdown',
     url='https://github.com/hassantee',
     packages=find_packages('src'),
+    python_requires='>=3.6',
     package_dir={'': 'src'},
     install_requires=['boto3'],
     entry_points={
